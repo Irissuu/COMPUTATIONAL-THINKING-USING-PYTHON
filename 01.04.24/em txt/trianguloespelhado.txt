@@ -1,0 +1,10 @@
+print("Exercicio de fazer triangulo")
+
+
+
+for a in range(0, 5):
+    for b in range (0, 5):
+         print(" ", end="")
+    print("*", end="")
+    print("")
+    
