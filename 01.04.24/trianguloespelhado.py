@@ -1,9 +1,9 @@
 print("Exercicio de fazer triangulo espelhado")
 
-print("quantos asteriscos voce deseja colocar? ")
-a = int(input())
+print("quantas linhas voce deseja utlizar? ")
+linhas = int(input())
 
-for a in range(0, a):
-    for b in range (0, a):
-         print("*", end="")
-    print("")
+for i in range (1, linhas + 1):
+    separa = " " * (linhas - i)
+    asterisco = "*" * i
+    print(separa + asterisco) 
